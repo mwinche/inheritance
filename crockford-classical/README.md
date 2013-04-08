@@ -12,7 +12,7 @@ add eye color as another property of all animals? I'd have to change every const
 Constructor section.
 
 Second, you'll note the use of 'uber' as his super replacment. It is unfortunate that he had to use 'uber' but that is hardly his fault (super being a reserved word) nor is that
-my point. My point is that while you *can* use uber methods, you have to do it with this awkward syntax where you method name is passed into the uber method. More on that in the
+my point. My point is that while you *can* use uber methods, you have to do it with this awkward syntax where your method name is passed into the uber method. More on that in the
 "super" access section.
 
 ##### Conclusion: Mostly friendly but has a few nasty parts.
