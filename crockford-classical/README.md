@@ -7,7 +7,7 @@ Douglas Crockford presented 5 methods of inheritance. For this part I looked at 
 The class definintions do not seem overly complex. They remind me of C++ a little, where you'd define your headers and implementation separetely. Only in this case: no headers.
 So as far as the boilerplate goes, I don't have any problems. However there are two smells/hacks I'd like to point out.
 
-First off, if you would notice nearly every constructor looks identical. The Human Classes add SSN but other than that they constructors all do the same thing. What if I wanted
+First off, if you would notice nearly every constructor looks identical. The Human Classes add SSN but other than that their constructors all do the same thing. What if I wanted
 add eye color as another property of all animals? I'd have to change every constructor to do it. Why does this happen? How could it be better? I'll get to that in the
 Constructor section.
 
