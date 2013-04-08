@@ -9,7 +9,9 @@ Through this research I will use the term "class". JavaScript actually does not 
 
 > A class is a set of methods and properties which serve as a template for (potentially) multiple object instantiations
 
-The goals I have for my inheritance research is to find a method of JavaScript inheritance that meets these needs:
+## Methodology
+
+I will be implementing a simple inheritance chain with many different approaches. Then I will be evaluating them accoring to the following requirements.:
 
 1. Developer friendly (a bit subjective admitedly, but an important point)
 2. Method/property propagation to parent classes when called inside and outside the class
