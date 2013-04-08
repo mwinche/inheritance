@@ -26,8 +26,8 @@ Everything seems solid here, everything propagated correctly and it was intuitiv
 ### "super" access
 
 "super" access is supported and fully featured, but it is awkward. If I am designing an API and I expect developers using my API to be able to extend my classes and use the
-super functionality, I can only imagine a lot of confusion and bugs around it. My main problem is that just because a method is in a parent class, does not mean that it we should
-have a different way of invoking it. All methods should be able to be invoked in similar manners. I would prefer a namespace on 'this', call it 'uber' if you will, that gave
+super functionality, I can only imagine a lot of confusion and bugs around it. My main problem is that just because a method is in a parent class, does not mean that we should
+have a different way of invoking it. All methods should be able to be invoked in a similar manner. I would prefer a namespace on 'this', call it 'uber' if you will, that gave
 access to the parent class.
 
 ##### Conclusion: Fully functional but awkward to use.
